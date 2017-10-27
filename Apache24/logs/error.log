@@ -1,0 +1,386 @@
+[Sat Oct 21 14:48:18.812252 2017] [mpm_winnt:notice] [pid 6396:tid 456] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 14:48:18.812252 2017] [mpm_winnt:notice] [pid 6396:tid 456] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 14:48:18.812252 2017] [core:notice] [pid 6396:tid 456] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 14:48:18.812252 2017] [mpm_winnt:notice] [pid 6396:tid 456] AH00418: Parent: Created child process 2764
+[Sat Oct 21 14:48:19.140654 2017] [mpm_winnt:notice] [pid 2764:tid 396] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 14:49:00.502830 2017] [mpm_winnt:notice] [pid 6396:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 14:49:02.502841 2017] [mpm_winnt:notice] [pid 2764:tid 396] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 14:49:02.518441 2017] [mpm_winnt:notice] [pid 6396:tid 456] AH00430: Parent: Child process 2764 exited successfully.
+AH00112: Warning: DocumentRoot [C:/var/www/html] does not exist
+[Sat Oct 21 14:55:36.815758 2017] [mpm_winnt:notice] [pid 10372:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 14:55:36.815758 2017] [mpm_winnt:notice] [pid 10372:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 14:55:36.815758 2017] [core:notice] [pid 10372:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 14:55:36.815758 2017] [mpm_winnt:notice] [pid 10372:tid 460] AH00418: Parent: Created child process 10424
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:209
+AH00112: Warning: DocumentRoot [C:/var/www/html] does not exist
+AH00112: Warning: DocumentRoot [C:/var/www/html] does not exist
+[Sat Oct 21 14:55:37.143358 2017] [mpm_winnt:notice] [pid 10424:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 14:55:48.369585 2017] [proxy:warn] [pid 10424:tid 928] [client ::1:49727] AH01144: No protocol handler was valid for the URL /example/v1/hotels (scheme 'http'). If you are using a DSO version of mod_proxy, make sure the proxy submodules are included in the configuration using LoadModule.
+[Sat Oct 21 14:56:03.774404 2017] [proxy:warn] [pid 10424:tid 928] [client ::1:49729] AH01144: No protocol handler was valid for the URL /example/v1/hotels (scheme 'http'). If you are using a DSO version of mod_proxy, make sure the proxy submodules are included in the configuration using LoadModule.
+[Sat Oct 21 14:56:19.929105 2017] [mpm_winnt:notice] [pid 10372:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 14:56:21.944716 2017] [mpm_winnt:notice] [pid 10424:tid 408] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 14:56:21.960316 2017] [mpm_winnt:notice] [pid 10372:tid 460] AH00430: Parent: Child process 10424 exited successfully.
+AH00112: Warning: DocumentRoot [C:/var/www/html] does not exist
+[Sat Oct 21 14:56:24.007325 2017] [mpm_winnt:notice] [pid 11116:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 14:56:24.007325 2017] [mpm_winnt:notice] [pid 11116:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 14:56:24.007325 2017] [core:notice] [pid 11116:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 14:56:24.022925 2017] [mpm_winnt:notice] [pid 11116:tid 460] AH00418: Parent: Created child process 11156
+AH00112: Warning: DocumentRoot [C:/var/www/html] does not exist
+AH00112: Warning: DocumentRoot [C:/var/www/html] does not exist
+[Sat Oct 21 14:56:24.360742 2017] [mpm_winnt:notice] [pid 11156:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 14:56:32.489835 2017] [proxy:warn] [pid 11156:tid 932] [client ::1:49731] AH01144: No protocol handler was valid for the URL /example/v1/hotels (scheme 'http'). If you are using a DSO version of mod_proxy, make sure the proxy submodules are included in the configuration using LoadModule.
+[Sat Oct 21 14:56:33.978480 2017] [proxy:warn] [pid 11156:tid 932] [client ::1:49732] AH01144: No protocol handler was valid for the URL /example/v1/hotels (scheme 'http'). If you are using a DSO version of mod_proxy, make sure the proxy submodules are included in the configuration using LoadModule.
+[Sat Oct 21 14:56:38.807609 2017] [proxy:warn] [pid 11156:tid 932] [client ::1:49733] AH01144: No protocol handler was valid for the URL /example/v1/hotels (scheme 'http'). If you are using a DSO version of mod_proxy, make sure the proxy submodules are included in the configuration using LoadModule.
+[Sat Oct 21 14:57:01.741203 2017] [proxy:warn] [pid 11156:tid 932] [client ::1:49736] AH01144: No protocol handler was valid for the URL /example/v1/hotels (scheme 'http'). If you are using a DSO version of mod_proxy, make sure the proxy submodules are included in the configuration using LoadModule.
+[Sat Oct 21 14:57:31.722870 2017] [mpm_winnt:notice] [pid 11116:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 14:57:33.738485 2017] [mpm_winnt:notice] [pid 11156:tid 408] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 14:57:33.754085 2017] [mpm_winnt:notice] [pid 11116:tid 460] AH00430: Parent: Child process 11156 exited successfully.
+[Sat Oct 21 14:57:34.582490 2017] [mpm_winnt:notice] [pid 10484:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 14:57:34.582490 2017] [mpm_winnt:notice] [pid 10484:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 14:57:34.582490 2017] [core:notice] [pid 10484:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 14:57:34.582490 2017] [mpm_winnt:notice] [pid 10484:tid 460] AH00418: Parent: Created child process 10536
+[Sat Oct 21 14:57:34.917091 2017] [mpm_winnt:notice] [pid 10536:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 14:57:42.168647 2017] [proxy:warn] [pid 10536:tid 928] [client ::1:49743] AH01144: No protocol handler was valid for the URL /example/v1/hotels (scheme 'http'). If you are using a DSO version of mod_proxy, make sure the proxy submodules are included in the configuration using LoadModule.
+[Sat Oct 21 14:58:10.191263 2017] [mpm_winnt:notice] [pid 10484:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 14:58:12.191274 2017] [mpm_winnt:notice] [pid 10536:tid 408] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 14:58:12.206874 2017] [mpm_winnt:notice] [pid 10484:tid 460] AH00430: Parent: Child process 10536 exited successfully.
+[Sat Oct 21 14:58:13.063879 2017] [mpm_winnt:notice] [pid 11164:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 14:58:13.063879 2017] [mpm_winnt:notice] [pid 11164:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 14:58:13.063879 2017] [core:notice] [pid 11164:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 14:58:13.066879 2017] [mpm_winnt:notice] [pid 11164:tid 460] AH00418: Parent: Created child process 11040
+[Sat Oct 21 14:58:13.381281 2017] [mpm_winnt:notice] [pid 11040:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 14:58:17.032330 2017] [proxy:warn] [pid 11040:tid 928] [client ::1:49746] AH01144: No protocol handler was valid for the URL /example/v1/hotels (scheme 'http'). If you are using a DSO version of mod_proxy, make sure the proxy submodules are included in the configuration using LoadModule.
+[Sat Oct 21 15:03:22.901841 2017] [mpm_winnt:notice] [pid 11164:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 15:03:24.914451 2017] [mpm_winnt:notice] [pid 11040:tid 408] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 15:03:24.930051 2017] [mpm_winnt:notice] [pid 11164:tid 460] AH00430: Parent: Child process 11040 exited successfully.
+[Sat Oct 21 15:03:26.476859 2017] [mpm_winnt:notice] [pid 11004:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 15:03:26.476859 2017] [mpm_winnt:notice] [pid 11004:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 15:03:26.476859 2017] [core:notice] [pid 11004:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 15:03:26.476859 2017] [mpm_winnt:notice] [pid 11004:tid 460] AH00418: Parent: Created child process 10960
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:209
+[Sat Oct 21 15:03:26.803261 2017] [mpm_winnt:notice] [pid 10960:tid 404] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 15:04:16.725575 2017] [mpm_winnt:notice] [pid 11004:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 15:04:18.744785 2017] [mpm_winnt:notice] [pid 10960:tid 404] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 15:04:18.760385 2017] [mpm_winnt:notice] [pid 11004:tid 460] AH00430: Parent: Child process 10960 exited successfully.
+[Sat Oct 21 15:04:20.186807 2017] [mpm_winnt:notice] [pid 9292:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 15:04:20.186807 2017] [mpm_winnt:notice] [pid 9292:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 15:04:20.186807 2017] [core:notice] [pid 9292:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 15:04:20.186807 2017] [mpm_winnt:notice] [pid 9292:tid 460] AH00418: Parent: Created child process 9188
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:209
+[Sat Oct 21 15:04:20.514011 2017] [mpm_winnt:notice] [pid 9188:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 15:04:29.862542 2017] [proxy:warn] [pid 9188:tid 928] [client ::1:49823] AH01144: No protocol handler was valid for the URL /example/v1/hotels (scheme 'http'). If you are using a DSO version of mod_proxy, make sure the proxy submodules are included in the configuration using LoadModule.
+[Sat Oct 21 15:09:19.853976 2017] [mpm_winnt:notice] [pid 9292:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 15:09:21.869785 2017] [mpm_winnt:notice] [pid 9188:tid 408] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 15:09:21.887385 2017] [mpm_winnt:notice] [pid 9292:tid 460] AH00430: Parent: Child process 9188 exited successfully.
+[Sat Oct 21 15:09:23.727594 2017] [mpm_winnt:notice] [pid 2808:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 15:09:23.727594 2017] [mpm_winnt:notice] [pid 2808:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 15:09:23.727594 2017] [core:notice] [pid 2808:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 15:09:23.727594 2017] [mpm_winnt:notice] [pid 2808:tid 460] AH00418: Parent: Created child process 3556
+[Sat Oct 21 15:09:24.043594 2017] [mpm_winnt:notice] [pid 3556:tid 404] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 15:11:47.245670 2017] [mpm_winnt:notice] [pid 2808:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 15:11:49.259478 2017] [mpm_winnt:notice] [pid 3556:tid 404] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 15:11:49.275079 2017] [mpm_winnt:notice] [pid 2808:tid 460] AH00430: Parent: Child process 3556 exited successfully.
+[Sat Oct 21 15:11:51.106886 2017] [mpm_winnt:notice] [pid 10896:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 15:11:51.106886 2017] [mpm_winnt:notice] [pid 10896:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 15:11:51.106886 2017] [core:notice] [pid 10896:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 15:11:51.106886 2017] [mpm_winnt:notice] [pid 10896:tid 460] AH00418: Parent: Created child process 11232
+[Sat Oct 21 15:11:51.434486 2017] [mpm_winnt:notice] [pid 11232:tid 404] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 15:18:27.887211 2017] [mpm_winnt:notice] [pid 10896:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 15:18:29.888024 2017] [mpm_winnt:notice] [pid 11232:tid 404] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 15:18:29.904624 2017] [mpm_winnt:notice] [pid 10896:tid 460] AH00430: Parent: Child process 11232 exited successfully.
+[Sat Oct 21 15:18:32.000234 2017] [mpm_winnt:notice] [pid 11680:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 15:18:32.000234 2017] [mpm_winnt:notice] [pid 11680:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 15:18:32.000234 2017] [core:notice] [pid 11680:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 15:18:32.000234 2017] [mpm_winnt:notice] [pid 11680:tid 460] AH00418: Parent: Created child process 10912
+[Sat Oct 21 15:18:32.324637 2017] [mpm_winnt:notice] [pid 10912:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 15:19:02.467352 2017] [mpm_winnt:notice] [pid 11680:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 15:19:04.482765 2017] [mpm_winnt:notice] [pid 10912:tid 408] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 15:19:04.498365 2017] [mpm_winnt:notice] [pid 11680:tid 460] AH00430: Parent: Child process 10912 exited successfully.
+[Sat Oct 21 15:19:06.047371 2017] [mpm_winnt:notice] [pid 11692:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 15:19:06.047371 2017] [mpm_winnt:notice] [pid 11692:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 15:19:06.047371 2017] [core:notice] [pid 11692:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 15:19:06.047371 2017] [mpm_winnt:notice] [pid 11692:tid 460] AH00418: Parent: Created child process 11852
+[Sat Oct 21 15:19:06.371773 2017] [mpm_winnt:notice] [pid 11852:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 17:01:26.553385 2017] [mpm_winnt:notice] [pid 11692:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 17:01:28.570599 2017] [mpm_winnt:notice] [pid 11852:tid 408] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 17:01:28.586199 2017] [mpm_winnt:notice] [pid 11692:tid 460] AH00430: Parent: Child process 11852 exited successfully.
+[Sat Oct 21 17:01:30.959016 2017] [mpm_winnt:notice] [pid 15284:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 17:01:30.959016 2017] [mpm_winnt:notice] [pid 15284:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 17:01:30.959016 2017] [core:notice] [pid 15284:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 17:01:30.959016 2017] [mpm_winnt:notice] [pid 15284:tid 460] AH00418: Parent: Created child process 10916
+[Sat Oct 21 17:01:31.289617 2017] [mpm_winnt:notice] [pid 10916:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 22:42:12.378488 2017] [mpm_winnt:notice] [pid 15284:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Oct 21 22:42:14.393499 2017] [mpm_winnt:notice] [pid 10916:tid 408] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 22:42:14.409099 2017] [mpm_winnt:notice] [pid 15284:tid 460] AH00430: Parent: Child process 10916 exited successfully.
+[Sat Oct 21 22:44:04.335716 2017] [mpm_winnt:notice] [pid 15936:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sat Oct 21 22:44:04.335716 2017] [mpm_winnt:notice] [pid 15936:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sat Oct 21 22:44:04.335716 2017] [core:notice] [pid 15936:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 22:44:04.335716 2017] [mpm_winnt:notice] [pid 15936:tid 460] AH00418: Parent: Created child process 16852
+[Sat Oct 21 22:44:04.671317 2017] [mpm_winnt:notice] [pid 16852:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 13:32:26.656988 2017] [mpm_winnt:notice] [pid 15936:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 13:32:28.673599 2017] [mpm_winnt:notice] [pid 16852:tid 408] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 13:32:28.704799 2017] [mpm_winnt:notice] [pid 15936:tid 460] AH00430: Parent: Child process 16852 exited successfully.
+[Sun Oct 22 13:32:36.910586 2017] [mpm_winnt:notice] [pid 17020:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sun Oct 22 13:32:36.910586 2017] [mpm_winnt:notice] [pid 17020:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 13:32:36.910586 2017] [core:notice] [pid 17020:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 13:32:36.910586 2017] [mpm_winnt:notice] [pid 17020:tid 460] AH00418: Parent: Created child process 18096
+[Sun Oct 22 13:32:37.238187 2017] [mpm_winnt:notice] [pid 18096:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 13:47:25.307712 2017] [mpm_winnt:notice] [pid 17020:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 13:47:27.322125 2017] [mpm_winnt:notice] [pid 18096:tid 408] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 13:47:27.341725 2017] [mpm_winnt:notice] [pid 17020:tid 460] AH00430: Parent: Child process 18096 exited successfully.
+[Sun Oct 22 13:47:28.881735 2017] [mpm_winnt:notice] [pid 7296:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sun Oct 22 13:47:28.881735 2017] [mpm_winnt:notice] [pid 7296:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 13:47:28.881735 2017] [core:notice] [pid 7296:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 13:47:28.884735 2017] [mpm_winnt:notice] [pid 7296:tid 460] AH00418: Parent: Created child process 17888
+[Sun Oct 22 13:47:29.212336 2017] [mpm_winnt:notice] [pid 17888:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 13:47:36.793450 2017] [authn_file:error] [pid 17888:tid 928] (OS 3)Le chemin d’accès spécifié est introuvable.  : [client ::1:51227] AH01620: Could not open password file: C:/conf/http.passwords
+[Sun Oct 22 13:47:54.805727 2017] [mpm_winnt:notice] [pid 7296:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 13:47:56.835141 2017] [mpm_winnt:notice] [pid 17888:tid 408] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 13:47:56.854741 2017] [mpm_winnt:notice] [pid 7296:tid 460] AH00430: Parent: Child process 17888 exited successfully.
+[Sun Oct 22 13:47:58.269951 2017] [mpm_winnt:notice] [pid 4944:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sun Oct 22 13:47:58.269951 2017] [mpm_winnt:notice] [pid 4944:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 13:47:58.269951 2017] [core:notice] [pid 4944:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 13:47:58.273951 2017] [mpm_winnt:notice] [pid 4944:tid 460] AH00418: Parent: Created child process 18384
+[Sun Oct 22 13:47:58.599353 2017] [mpm_winnt:notice] [pid 18384:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 13:49:55.260475 2017] [mpm_winnt:notice] [pid 4944:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 13:49:57.275887 2017] [mpm_winnt:notice] [pid 18384:tid 408] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 13:49:57.292487 2017] [mpm_winnt:notice] [pid 4944:tid 460] AH00430: Parent: Child process 18384 exited successfully.
+[Sun Oct 22 13:50:14.834199 2017] [mpm_winnt:notice] [pid 17772:tid 460] AH00455: Apache/2.4.28 (Win64) configured -- resuming normal operations
+[Sun Oct 22 13:50:14.835199 2017] [mpm_winnt:notice] [pid 17772:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 13:50:14.835199 2017] [core:notice] [pid 17772:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 13:50:14.838199 2017] [mpm_winnt:notice] [pid 17772:tid 460] AH00418: Parent: Created child process 16492
+[Sun Oct 22 13:50:15.153402 2017] [mpm_winnt:notice] [pid 16492:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 13:53:47.256525 2017] [auth_basic:error] [pid 16492:tid 928] [client ::1:51273] AH01614: client used wrong authentication scheme: /example/v1/hotels
+[Sun Oct 22 13:54:49.713023 2017] [auth_basic:error] [pid 16492:tid 928] [client ::1:51304] AH01618: user \xb6\x8bh not found: /example/v1/hotels
+[Sun Oct 22 13:57:04.600566 2017] [auth_basic:error] [pid 16492:tid 928] [client ::1:51312] AH01618: user \xb6\x8bh not found: /example/v1/hotels
+[Sun Oct 22 14:48:10.122581 2017] [mpm_winnt:notice] [pid 17772:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 14:48:12.138993 2017] [mpm_winnt:notice] [pid 16492:tid 408] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 14:48:12.154593 2017] [mpm_winnt:notice] [pid 17772:tid 460] AH00430: Parent: Child process 16492 exited successfully.
+[Sun Oct 22 14:48:14.452806 2017] [ssl:warn] [pid 19368:tid 456] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 14:48:14.452806 2017] [mpm_winnt:notice] [pid 19368:tid 456] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 14:48:14.452806 2017] [mpm_winnt:notice] [pid 19368:tid 456] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 14:48:14.452806 2017] [core:notice] [pid 19368:tid 456] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 14:48:14.452806 2017] [mpm_winnt:notice] [pid 19368:tid 456] AH00418: Parent: Created child process 17688
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:226
+[Sun Oct 22 14:48:14.785407 2017] [ssl:warn] [pid 17688:tid 380] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 14:48:14.801007 2017] [mpm_winnt:notice] [pid 17688:tid 380] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 14:55:10.670356 2017] [mpm_winnt:notice] [pid 19368:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 14:55:12.701170 2017] [mpm_winnt:notice] [pid 17688:tid 380] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 14:55:12.716770 2017] [mpm_winnt:notice] [pid 19368:tid 456] AH00430: Parent: Child process 17688 exited successfully.
+[Sun Oct 22 14:55:13.543977 2017] [ssl:warn] [pid 15592:tid 456] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 14:55:13.543977 2017] [mpm_winnt:notice] [pid 15592:tid 456] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 14:55:13.543977 2017] [mpm_winnt:notice] [pid 15592:tid 456] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 14:55:13.543977 2017] [core:notice] [pid 15592:tid 456] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 14:55:13.543977 2017] [mpm_winnt:notice] [pid 15592:tid 456] AH00418: Parent: Created child process 14652
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:226
+[Sun Oct 22 14:55:13.872578 2017] [ssl:warn] [pid 14652:tid 380] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 14:55:13.888178 2017] [mpm_winnt:notice] [pid 14652:tid 380] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 14:58:51.041391 2017] [mpm_winnt:notice] [pid 15592:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 14:58:53.057605 2017] [mpm_winnt:notice] [pid 14652:tid 380] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 14:58:53.073205 2017] [mpm_winnt:notice] [pid 15592:tid 456] AH00430: Parent: Child process 14652 exited successfully.
+[Sun Oct 22 14:58:53.917809 2017] [ssl:warn] [pid 18976:tid 456] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 14:58:53.917809 2017] [mpm_winnt:notice] [pid 18976:tid 456] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 14:58:53.917809 2017] [mpm_winnt:notice] [pid 18976:tid 456] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 14:58:53.917809 2017] [core:notice] [pid 18976:tid 456] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 14:58:53.933409 2017] [mpm_winnt:notice] [pid 18976:tid 456] AH00418: Parent: Created child process 19396
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:226
+[Sun Oct 22 14:58:54.257212 2017] [ssl:warn] [pid 19396:tid 380] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 14:58:54.272812 2017] [mpm_winnt:notice] [pid 19396:tid 380] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 15:09:06.790894 2017] [mpm_winnt:notice] [pid 18976:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 15:09:08.811699 2017] [mpm_winnt:notice] [pid 19396:tid 380] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 15:09:08.827299 2017] [mpm_winnt:notice] [pid 18976:tid 456] AH00430: Parent: Child process 19396 exited successfully.
+[Sun Oct 22 15:09:18.835452 2017] [ssl:warn] [pid 18804:tid 456] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:09:18.835452 2017] [mpm_winnt:notice] [pid 18804:tid 456] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 15:09:18.835452 2017] [mpm_winnt:notice] [pid 18804:tid 456] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 15:09:18.835452 2017] [core:notice] [pid 18804:tid 456] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 15:09:18.835452 2017] [mpm_winnt:notice] [pid 18804:tid 456] AH00418: Parent: Created child process 19120
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:226
+[Sun Oct 22 15:09:19.167454 2017] [ssl:warn] [pid 19120:tid 380] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:09:19.184054 2017] [mpm_winnt:notice] [pid 19120:tid 380] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 15:10:59.027656 2017] [mpm_winnt:notice] [pid 18804:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 15:11:01.056461 2017] [mpm_winnt:notice] [pid 19120:tid 380] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 15:11:01.072061 2017] [mpm_winnt:notice] [pid 18804:tid 456] AH00430: Parent: Child process 19120 exited successfully.
+[Sun Oct 22 15:11:01.874663 2017] [ssl:warn] [pid 19144:tid 444] AH01897: Init: Oops, you want to request client authentication, but no CAs are known for verification!?  [Hint: SSLCACertificate*]
+[Sun Oct 22 15:11:01.890263 2017] [ssl:warn] [pid 19144:tid 444] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:11:01.890263 2017] [ssl:warn] [pid 19144:tid 444] AH01897: Init: Oops, you want to request client authentication, but no CAs are known for verification!?  [Hint: SSLCACertificate*]
+[Sun Oct 22 15:11:01.890263 2017] [mpm_winnt:notice] [pid 19144:tid 444] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 15:11:01.890263 2017] [mpm_winnt:notice] [pid 19144:tid 444] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 15:11:01.890263 2017] [core:notice] [pid 19144:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 15:11:01.890263 2017] [mpm_winnt:notice] [pid 19144:tid 444] AH00418: Parent: Created child process 8300
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:226
+[Sun Oct 22 15:11:02.203264 2017] [ssl:warn] [pid 8300:tid 384] AH01897: Init: Oops, you want to request client authentication, but no CAs are known for verification!?  [Hint: SSLCACertificate*]
+[Sun Oct 22 15:11:02.218864 2017] [ssl:warn] [pid 8300:tid 384] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:11:02.218864 2017] [ssl:warn] [pid 8300:tid 384] AH01897: Init: Oops, you want to request client authentication, but no CAs are known for verification!?  [Hint: SSLCACertificate*]
+[Sun Oct 22 15:11:02.234464 2017] [mpm_winnt:notice] [pid 8300:tid 384] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 15:13:34.578251 2017] [mpm_winnt:notice] [pid 19144:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 15:13:36.593857 2017] [mpm_winnt:notice] [pid 8300:tid 384] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 15:13:36.613457 2017] [mpm_winnt:notice] [pid 19144:tid 444] AH00430: Parent: Child process 8300 exited successfully.
+[Sun Oct 22 15:13:37.465859 2017] [ssl:warn] [pid 6448:tid 460] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:13:37.465859 2017] [mpm_winnt:notice] [pid 6448:tid 460] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 15:13:37.465859 2017] [mpm_winnt:notice] [pid 6448:tid 460] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 15:13:37.465859 2017] [core:notice] [pid 6448:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 15:13:37.465859 2017] [mpm_winnt:notice] [pid 6448:tid 460] AH00418: Parent: Created child process 8644
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:226
+[Sun Oct 22 15:13:37.807461 2017] [ssl:warn] [pid 8644:tid 380] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:13:37.807461 2017] [mpm_winnt:notice] [pid 8644:tid 380] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 15:14:51.701680 2017] [mpm_winnt:notice] [pid 6448:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 15:14:53.732485 2017] [mpm_winnt:notice] [pid 8644:tid 380] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 15:14:53.748085 2017] [mpm_winnt:notice] [pid 6448:tid 460] AH00430: Parent: Child process 8644 exited successfully.
+[Sun Oct 22 15:14:54.542087 2017] [ssl:warn] [pid 17224:tid 456] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:14:54.542087 2017] [mpm_winnt:notice] [pid 17224:tid 456] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 15:14:54.542087 2017] [mpm_winnt:notice] [pid 17224:tid 456] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 15:14:54.542087 2017] [core:notice] [pid 17224:tid 456] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 15:14:54.542087 2017] [mpm_winnt:notice] [pid 17224:tid 456] AH00418: Parent: Created child process 18008
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:226
+[Sun Oct 22 15:14:54.872688 2017] [ssl:warn] [pid 18008:tid 380] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:14:54.888288 2017] [mpm_winnt:notice] [pid 18008:tid 380] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 15:16:06.422314 2017] [mpm_winnt:notice] [pid 17224:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 15:16:08.453119 2017] [mpm_winnt:notice] [pid 18008:tid 380] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 15:16:08.468719 2017] [mpm_winnt:notice] [pid 17224:tid 456] AH00430: Parent: Child process 18008 exited successfully.
+[Sun Oct 22 15:16:09.295921 2017] [ssl:warn] [pid 8288:tid 456] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:16:09.295921 2017] [mpm_winnt:notice] [pid 8288:tid 456] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 15:16:09.295921 2017] [mpm_winnt:notice] [pid 8288:tid 456] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 15:16:09.295921 2017] [core:notice] [pid 8288:tid 456] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 15:16:09.295921 2017] [mpm_winnt:notice] [pid 8288:tid 456] AH00418: Parent: Created child process 19308
+AH00548: NameVirtualHost has no effect and will be removed in the next release C:/Apache24/conf/httpd.conf:226
+[Sun Oct 22 15:16:09.641122 2017] [ssl:warn] [pid 19308:tid 380] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:16:09.641122 2017] [mpm_winnt:notice] [pid 19308:tid 380] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 15:16:25.452999 2017] [mpm_winnt:notice] [pid 8288:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 15:16:55.453688 2017] [mpm_winnt:notice] [pid 8288:tid 456] AH00431: Parent: Forcing termination of child process 19308
+[Sun Oct 22 15:17:44.575635 2017] [ssl:warn] [pid 8336:tid 456] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:17:44.575635 2017] [mpm_winnt:notice] [pid 8336:tid 456] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 15:17:44.575635 2017] [mpm_winnt:notice] [pid 8336:tid 456] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 15:17:44.575635 2017] [core:notice] [pid 8336:tid 456] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 15:17:44.591235 2017] [mpm_winnt:notice] [pid 8336:tid 456] AH00418: Parent: Created child process 18752
+[Sun Oct 22 15:17:44.906236 2017] [ssl:warn] [pid 18752:tid 380] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 22 15:17:44.922836 2017] [mpm_winnt:notice] [pid 18752:tid 380] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 15:19:54.439073 2017] [mpm_winnt:notice] [pid 8336:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 15:19:56.455278 2017] [mpm_winnt:notice] [pid 18752:tid 380] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 15:19:56.470878 2017] [mpm_winnt:notice] [pid 8336:tid 456] AH00430: Parent: Child process 18752 exited successfully.
+[Sun Oct 22 15:24:16.326856 2017] [ssl:emerg] [pid 17328:tid 468] AH02572: Failed to configure at least one certificate and key for www.example.com:443
+[Sun Oct 22 15:24:16.326856 2017] [ssl:emerg] [pid 17328:tid 468] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sun Oct 22 15:24:16.326856 2017] [ssl:emerg] [pid 17328:tid 468] AH02311: Fatal error initialising mod_ssl, exiting. See C:/Apache24/logs/error.log for more information
+AH00016: Configuration Failed
+[Sun Oct 22 15:24:47.924949 2017] [ssl:emerg] [pid 17236:tid 468] AH02572: Failed to configure at least one certificate and key for www.example.com:443
+[Sun Oct 22 15:24:47.924949 2017] [ssl:emerg] [pid 17236:tid 468] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sun Oct 22 15:24:47.924949 2017] [ssl:emerg] [pid 17236:tid 468] AH02311: Fatal error initialising mod_ssl, exiting. See C:/Apache24/logs/error.log for more information
+AH00016: Configuration Failed
+[Sun Oct 22 15:25:21.736649 2017] [ssl:emerg] [pid 3204:tid 468] AH02572: Failed to configure at least one certificate and key for www.example.com:443
+[Sun Oct 22 15:25:21.736649 2017] [ssl:emerg] [pid 3204:tid 468] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sun Oct 22 15:25:21.736649 2017] [ssl:emerg] [pid 3204:tid 468] AH02311: Fatal error initialising mod_ssl, exiting. See C:/Apache24/logs/error.log for more information
+AH00016: Configuration Failed
+[Sun Oct 22 15:26:42.690678 2017] [ssl:warn] [pid 7484:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:26:42.721878 2017] [ssl:warn] [pid 7484:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:26:42.721878 2017] [mpm_winnt:notice] [pid 7484:tid 468] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 15:26:42.721878 2017] [mpm_winnt:notice] [pid 7484:tid 468] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 15:26:42.721878 2017] [core:notice] [pid 7484:tid 468] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 15:26:42.721878 2017] [mpm_winnt:notice] [pid 7484:tid 468] AH00418: Parent: Created child process 8368
+[Sun Oct 22 15:26:43.020279 2017] [ssl:warn] [pid 8368:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:26:43.052479 2017] [ssl:warn] [pid 8368:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:26:43.052479 2017] [mpm_winnt:notice] [pid 8368:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 15:28:30.775647 2017] [mpm_winnt:notice] [pid 7484:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 15:28:32.775761 2017] [mpm_winnt:notice] [pid 8368:tid 408] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 15:28:32.789762 2017] [mpm_winnt:notice] [pid 7484:tid 468] AH00430: Parent: Child process 8368 exited successfully.
+[Sun Oct 22 15:28:33.228787 2017] [ssl:warn] [pid 18864:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:28:33.229787 2017] [ssl:emerg] [pid 18864:tid 468] AH02572: Failed to configure at least one certificate and key for localhost:443
+[Sun Oct 22 15:28:33.229787 2017] [ssl:emerg] [pid 18864:tid 468] SSL Library Error: error:0906D06C:PEM routines:PEM_read_bio:no start line (Expecting: DH PARAMETERS) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sun Oct 22 15:28:33.229787 2017] [ssl:emerg] [pid 18864:tid 468] SSL Library Error: error:0906D06C:PEM routines:PEM_read_bio:no start line (Expecting: EC PARAMETERS) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sun Oct 22 15:28:33.229787 2017] [ssl:emerg] [pid 18864:tid 468] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sun Oct 22 15:28:33.229787 2017] [ssl:emerg] [pid 18864:tid 468] AH02312: Fatal error initialising mod_ssl, exiting.
+AH00016: Configuration Failed
+[Sun Oct 22 15:46:19.958801 2017] [ssl:warn] [pid 11372:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:46:19.981802 2017] [ssl:warn] [pid 11372:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:46:19.981802 2017] [mpm_winnt:notice] [pid 11372:tid 468] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 15:46:19.981802 2017] [mpm_winnt:notice] [pid 11372:tid 468] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 15:46:19.981802 2017] [core:notice] [pid 11372:tid 468] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 15:46:19.985802 2017] [mpm_winnt:notice] [pid 11372:tid 468] AH00418: Parent: Created child process 19128
+[Sun Oct 22 15:46:20.310821 2017] [ssl:warn] [pid 19128:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:46:20.331822 2017] [ssl:warn] [pid 19128:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:46:20.334822 2017] [mpm_winnt:notice] [pid 19128:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 15:49:45.413552 2017] [mpm_winnt:notice] [pid 11372:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 15:49:47.413667 2017] [mpm_winnt:notice] [pid 19128:tid 408] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 15:49:47.427667 2017] [mpm_winnt:notice] [pid 11372:tid 468] AH00430: Parent: Child process 19128 exited successfully.
+[Sun Oct 22 15:49:48.271716 2017] [ssl:warn] [pid 9232:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:49:48.294717 2017] [ssl:warn] [pid 9232:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:49:48.294717 2017] [mpm_winnt:notice] [pid 9232:tid 468] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sun Oct 22 15:49:48.294717 2017] [mpm_winnt:notice] [pid 9232:tid 468] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Sun Oct 22 15:49:48.294717 2017] [core:notice] [pid 9232:tid 468] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 22 15:49:48.298717 2017] [mpm_winnt:notice] [pid 9232:tid 468] AH00418: Parent: Created child process 16056
+[Sun Oct 22 15:49:48.628736 2017] [ssl:warn] [pid 16056:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:49:48.649737 2017] [ssl:warn] [pid 16056:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 22 15:49:48.652737 2017] [mpm_winnt:notice] [pid 16056:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 22 23:03:59.792030 2017] [mpm_winnt:notice] [pid 9232:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 22 23:04:01.820034 2017] [mpm_winnt:notice] [pid 16056:tid 408] AH00364: Child: All worker threads have exited.
+[Sun Oct 22 23:04:01.835634 2017] [mpm_winnt:notice] [pid 9232:tid 468] AH00430: Parent: Child process 16056 exited successfully.
+[Mon Oct 23 19:57:41.768030 2017] [ssl:warn] [pid 2352:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 23 19:57:41.798030 2017] [ssl:warn] [pid 2352:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 23 19:57:41.798030 2017] [mpm_winnt:notice] [pid 2352:tid 468] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Mon Oct 23 19:57:41.798030 2017] [mpm_winnt:notice] [pid 2352:tid 468] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Mon Oct 23 19:57:41.798030 2017] [core:notice] [pid 2352:tid 468] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 23 19:57:41.798030 2017] [mpm_winnt:notice] [pid 2352:tid 468] AH00418: Parent: Created child process 2720
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 23 19:57:42.784035 2017] [ssl:warn] [pid 2720:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 23 19:57:42.815035 2017] [ssl:warn] [pid 2720:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 23 19:57:42.815035 2017] [mpm_winnt:notice] [pid 2720:tid 408] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 23 22:36:34.649807 2017] [mpm_winnt:notice] [pid 2352:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 23 22:36:36.677811 2017] [mpm_winnt:notice] [pid 2720:tid 408] AH00364: Child: All worker threads have exited.
+[Mon Oct 23 22:36:36.693411 2017] [mpm_winnt:notice] [pid 2352:tid 468] AH00430: Parent: Child process 2720 exited successfully.
+[Tue Oct 24 20:15:14.550830 2017] [ssl:warn] [pid 2348:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Oct 24 20:15:14.580830 2017] [ssl:warn] [pid 2348:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 24 20:15:14.580830 2017] [mpm_winnt:notice] [pid 2348:tid 476] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Tue Oct 24 20:15:14.580830 2017] [mpm_winnt:notice] [pid 2348:tid 476] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Tue Oct 24 20:15:14.580830 2017] [core:notice] [pid 2348:tid 476] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 24 20:15:14.590830 2017] [mpm_winnt:notice] [pid 2348:tid 476] AH00418: Parent: Created child process 3012
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Oct 24 20:15:15.602842 2017] [ssl:warn] [pid 3012:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Oct 24 20:15:15.632842 2017] [ssl:warn] [pid 3012:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 24 20:15:15.632842 2017] [mpm_winnt:notice] [pid 3012:tid 408] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 24 22:22:43.711105 2017] [mpm_winnt:notice] [pid 2348:tid 476] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 24 22:22:45.739109 2017] [mpm_winnt:notice] [pid 3012:tid 408] AH00364: Child: All worker threads have exited.
+[Tue Oct 24 22:22:45.754709 2017] [mpm_winnt:notice] [pid 2348:tid 476] AH00430: Parent: Child process 3012 exited successfully.
+[Wed Oct 25 13:09:55.560830 2017] [ssl:warn] [pid 2212:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 25 13:09:55.580830 2017] [ssl:warn] [pid 2212:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 25 13:09:55.580830 2017] [mpm_winnt:notice] [pid 2212:tid 468] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Oct 25 13:09:55.580830 2017] [mpm_winnt:notice] [pid 2212:tid 468] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Wed Oct 25 13:09:55.580830 2017] [core:notice] [pid 2212:tid 468] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 25 13:09:55.590830 2017] [mpm_winnt:notice] [pid 2212:tid 468] AH00418: Parent: Created child process 2856
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 25 13:09:56.538839 2017] [ssl:warn] [pid 2856:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 25 13:09:56.558839 2017] [ssl:warn] [pid 2856:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 25 13:09:56.568839 2017] [mpm_winnt:notice] [pid 2856:tid 408] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 25 22:58:01.715324 2017] [mpm_winnt:notice] [pid 2212:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 25 22:58:03.743328 2017] [mpm_winnt:notice] [pid 2856:tid 408] AH00364: Child: All worker threads have exited.
+[Wed Oct 25 22:58:03.758928 2017] [mpm_winnt:notice] [pid 2212:tid 468] AH00430: Parent: Child process 2856 exited successfully.
+[Thu Oct 26 13:05:02.584030 2017] [ssl:warn] [pid 2308:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 26 13:05:02.624030 2017] [ssl:warn] [pid 2308:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:05:02.624030 2017] [mpm_winnt:notice] [pid 2308:tid 468] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Oct 26 13:05:02.624030 2017] [mpm_winnt:notice] [pid 2308:tid 468] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Thu Oct 26 13:05:02.624030 2017] [core:notice] [pid 2308:tid 468] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Oct 26 13:05:02.624030 2017] [mpm_winnt:notice] [pid 2308:tid 468] AH00418: Parent: Created child process 2572
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 26 13:05:03.296033 2017] [ssl:warn] [pid 2572:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 26 13:05:03.316033 2017] [ssl:warn] [pid 2572:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:05:03.326033 2017] [mpm_winnt:notice] [pid 2572:tid 408] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 26 22:43:59.805782 2017] [mpm_winnt:notice] [pid 2308:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 26 22:44:01.849385 2017] [mpm_winnt:notice] [pid 2572:tid 408] AH00364: Child: All worker threads have exited.
+[Thu Oct 26 22:44:01.911785 2017] [mpm_winnt:notice] [pid 2308:tid 468] AH00430: Parent: Child process 2572 exited successfully.
+[Fri Oct 27 14:02:30.667640 2017] [ssl:warn] [pid 2352:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 27 14:02:30.817641 2017] [ssl:warn] [pid 2352:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 27 14:02:30.817641 2017] [mpm_winnt:notice] [pid 2352:tid 468] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Oct 27 14:02:30.817641 2017] [mpm_winnt:notice] [pid 2352:tid 468] AH00456: Apache Lounge VC15 Server built: Sep 25 2017 18:28:57
+[Fri Oct 27 14:02:30.817641 2017] [core:notice] [pid 2352:tid 468] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 27 14:02:30.827641 2017] [mpm_winnt:notice] [pid 2352:tid 468] AH00418: Parent: Created child process 3232
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 27 14:02:31.733646 2017] [ssl:warn] [pid 3232:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 27 14:02:31.763646 2017] [ssl:warn] [pid 3232:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 27 14:02:31.763646 2017] [mpm_winnt:notice] [pid 3232:tid 408] AH00354: Child: Starting 64 worker threads.
