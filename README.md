@@ -14,6 +14,8 @@ Installation en tant que service Windows
 
 
 ## TP1 : Configurer le Basic Authication ##
+
+Résultat final :  
     git checkout basic_auth
 
 Configurer le Basic Auth :
@@ -46,6 +48,7 @@ Avec header Autorization : Erreur HTTP 200
 
 ## TP2 : Configuer Le SSL one way ##
 
+Résultat final :  
     git checkout basic_auth_and_ssl_one_way
 
 On veut sécuriser un serveur qui expose 1 webservcie REST par du Basic Auth + SSL 1 way  
@@ -53,23 +56,23 @@ Il faut
 - un Keystore contenant la clé privée et le certificat (signé par CA ou auto signé)  
 - définir un login:pwd que je vais communiquer (secrètement) à mes appelants.  
 
-Installer open SSL s  ur windows :  
+Installer open SSL sur windows :  
 set OPENSSL_CONF=C:\openssl\bin\openssl.cfg  
 
 1. **Générer une clé privée (openSSL)**
 
     	cd C:\certificat  
-    	C:\openssl\bin\openssl.exe genrsa -des3 -out prod_1.key 2048  
+    	C:\openssl\bin\openssl.exe genrsa -des3 -out server.key 2048  
 Définir un mot de passe pour la clé privée  
 Supprimer le passphrase (facultatif) :
 
-    	copy prod_1.key prod_1.key.org  
-    	C:\openssl\bin\openssl.exe rsa -in prod_1.key.org -out prod_1.key  
+    	copy server.key server.key.org  
+    	C:\openssl\bin\openssl.exe rsa -in server.key.org -out server.key  
 
 2. **Faire le CSR (demande de certificat)**  
 pré-requis : connaître les infos du serveur sur lequel sera installé le certificat
 
-    	C:\openssl\bin\openssl.exe req -new -key prod_1.key -out prod_1.csr  
+    	C:\openssl\bin\openssl.exe req -new -key server.key -out server.csr  
     	Country name 			= FR  
     	State 				= France  
     	Locality Name 			= Rennes  
@@ -84,36 +87,38 @@ pré-requis : connaître les infos du serveur sur lequel sera installé le certi
 	a) Pour un certificat signé, on récupère une fichier .cer qui contient la clé public ainsi que les infos de l'autorité de certification  
 	Possibilité de convertir en .crt (format PEM) :
 
-    	C:\openssl\bin\openssl.exe x509 -inform der -in prod_1.cer -out prod_1.crt  
+    	C:\openssl\bin\openssl.exe x509 -inform der -in server.cer -out server.crt  
 
 	b) Générer un certificat auto-signé
 
-    	C:\openssl\bin\openssl.exe x509 -req -days 365 -in C:\certificat\prod_1.csr -signkey
-    	C:\certificat\prod_1.key -out C:\certificat\prod_1.cer
+    	C:\openssl\bin\openssl.exe x509 -req -days 365 -in C:\certificat\server.csr -signkey C:\certificat\server.key -out C:\certificat\server.cer
 
 4. **Ajouter la clé privée et le certificat dans un Keystore** (format PKCS#12)  
 Définir un mot de passe pour le keystore
 
-    	C:\openssl\bin\openssl.exe pkcs12 -export -out C:\certificat\prod_1_keystore.p12 -inkey C:\certificat\prod_1.key -in C:\certificat\prod_1.cer  
+    	C:\openssl\bin\openssl.exe pkcs12 -export -out C:\certificat\server_keystore.p12 -inkey C:\certificat\server.key -in C:\certificat\server.cer  
 
 5. **Configuration Côté Serveur**  
-Dans httpd.conf, décommenter
+Dans httpd.conf, décommenter  
 
     	LoadModule ssl_module modules/mod_ssl.so  
     	LoadModule socache_shmcb_module modules/mod_socache_shmcb.so  
 
     	Include conf/extra/httpd-ssl.conf
-Copier fichier .cer et .key dans c:/Apache24/conf/certificat/   <br/><br/>
+
+Copier fichier .cer et .key dans c:/Apache24/conf/certificat/  
+
 Dans extra/httpd-ssl.conf :  
 	Modifier
 
-    	SSLCertificateFile "c:/Apache24/conf/certificat/prod_1.cer"  
-    	SSLCertificateKeyFile "c:/Apache24/conf/certificat/prod_1.key"  
+    	SSLCertificateFile "c:/Apache24/conf/certificat/server.cer"  
+    	SSLCertificateKeyFile "c:/Apache24/conf/certificat/server.key"  
+
     Ajouter
 
-    	ProxyPass / http://localhost:8090/  
-    	ProxyPassReverse / http://localhost:8090/  
-    	ProxyPreserveHost On  
+        ProxyPass / http://localhost:8090/  
+        ProxyPassReverse / http://localhost:8090/  
+        ProxyPreserveHost On
 
 6. **Redémarrer Apache**
 
