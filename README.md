@@ -15,8 +15,9 @@ Installation en tant que service Windows
 
 ## TP1 : Configurer le Basic Authication ##
 
-Résultat final :  
-    git checkout basic_auth
+Résultat final :
+
+        git checkout basic_auth
 
 Configurer le Basic Auth :
 
@@ -48,8 +49,9 @@ Avec header Autorization : Erreur HTTP 200
 
 ## TP2 : Configuer Le SSL one way ##
 
-Résultat final :  
-    git checkout basic_auth_and_ssl_one_way
+Résultat final :
+
+        git checkout basic_auth_and_ssl_one_way
 
 On veut sécuriser un serveur qui expose 1 webservcie REST par du Basic Auth + SSL 1 way  
 Il faut  
@@ -127,3 +129,4 @@ Dans extra/httpd-ssl.conf :
 
 7. **Ajouter le certificat Côté client**  
 Chrome > Paramètres, Certificats : ajouter le keystore p12
+Le certificat se trouve dans Apache24/conf/certificat/server_keystore.p12
