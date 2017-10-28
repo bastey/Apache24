@@ -19,14 +19,14 @@ Installation en tant que service Windows
 Configurer le Basic Auth :
 
 1. Générer un fichier contenant le login/password
- 
+
 	    cd C:\Apache24\bin
        	htpasswd -c .\..\conf\http.passwords toto
 
 2. Ajouter dans httpd.conf
 
 	    #Activation Basic Auth
-    	<Location "/"> 
+    	<Location "/">
     		AuthType Basic
     		AuthName "Restricted area"
     		AuthUserFile c:/Apache24/conf/http.passwords
@@ -35,7 +35,7 @@ Configurer le Basic Auth :
 
 3. Redémarrer Apache
 
-        sc stop Apache2.4
+    	sc stop Apache2.4
     	sc start Apache2.4
 
 4. Tester requête http://localhost:80/example/v1/hotel
@@ -53,7 +53,7 @@ Il faut
 - un Keystore contenant la clé privée et le certificat (signé par CA ou auto signé)  
 - définir un login:pwd que je vais communiquer (secrètement) à mes appelants.  
 
-Installer open SSL sur windows :  
+Installer open SSL s  ur windows :  
 set OPENSSL_CONF=C:\openssl\bin\openssl.cfg  
 
 1. **Générer une clé privée (openSSL)**
@@ -86,10 +86,10 @@ pré-requis : connaître les infos du serveur sur lequel sera installé le certi
 
     	C:\openssl\bin\openssl.exe x509 -inform der -in prod_1.cer -out prod_1.crt  
 
-
 	b) Générer un certificat auto-signé
 
-    	C:\openssl\bin\openssl.exe x509 -req -days 365 -in C:\certificat\prod_1.csr -signkey C:\certificat\prod_1.key -out C:\certificat\prod_1.cer
+    	C:\openssl\bin\openssl.exe x509 -req -days 365 -in C:\certificat\prod_1.csr -signkey
+    	C:\certificat\prod_1.key -out C:\certificat\prod_1.cer
 
 4. **Ajouter la clé privée et le certificat dans un Keystore** (format PKCS#12)  
 Définir un mot de passe pour le keystore
