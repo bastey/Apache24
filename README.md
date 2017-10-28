@@ -21,7 +21,7 @@ Configurer le Basic Auth :
 1. Générer un fichier contenant le login/password
 
 	    cd C:\Apache24\bin
-       	htpasswd -c .\..\conf\http.passwords toto
+	    htpasswd -c .\..\conf\http.passwords toto
 
 2. Ajouter dans httpd.conf
 
@@ -38,7 +38,7 @@ Configurer le Basic Auth :
     	sc stop Apache2.4
     	sc start Apache2.4
 
-4. Tester requête http://localhost:80/example/v1/hotel
+4. Tester requête http://localhost:80/example/v1/hotel avec et sans login:password = toto:titi
 
 HEADER HTTP : Authorization = "Basic login:password" avec login:password en base64  
 Sans header Autorization : Erreur HTTP 401  
