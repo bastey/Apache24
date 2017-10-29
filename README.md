@@ -8,7 +8,7 @@ Installation de Apache sur Windows (httpd-2.4.28-Win64-VC15.zip):
 
 Installation en tant que service Windows
 
-    cd c:\Apache24
+    cd c:\Apache24\bin
     httpd.exe -k install
     sc start Apache2.4
 
