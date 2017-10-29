@@ -131,5 +131,5 @@ Dans extra/httpd-ssl.conf :
 Chrome > Paramètres, Certificats : ajouter le keystore p12  
 Le certificat se trouve dans Apache24/conf/certificat/server_keystore.p12  
 Redémarrer Chrome  
-Accéder à l'URL https://localhost:9443/example/v1/hotels depuis CHROME et accepter le certificat non signé  
+Accéder à l'URL https://localhost depuis CHROME et accepter le certificat non signé  
 Puis tester dans POSTMAN l'URL : https://localhost:443/example/v1/hotels avec toto:titi
